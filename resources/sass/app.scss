@@ -1,0 +1,45 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//utilities
+@import 'partials/utilities';
+//header
+@import 'partials/header';
+//main
+@import 'partials/home-guest';
+//footer
+@import 'partials/footer';
+// stats 
+@import 'partials/stats';
+// infos-home 
+@import 'partials/home-infos';
+// auth-register 
+@import 'partials/register';
+// auth-login 
+@import 'partials/login';
+// auth-reset
+@import 'partials/email-pass';
+// Error 404
+@import 'partials/404';
+// create
+@import 'partials/create';
+// edit
+@import 'partials/edit';
+// show-guest
+@import 'partials/show-guest';
+//infos-show
+@import 'partials/infos-show';
+// Payment done
+@import 'partials/payed';

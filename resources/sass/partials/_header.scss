@@ -1,0 +1,65 @@
+header {
+
+    a{
+        text-decoration: none;
+        color: $white;
+
+        img {
+            width: 200px;
+        }
+    }
+    li.login a {
+        text-decoration: none;
+        color: $white;
+    }
+    li.login i {
+        margin-right: 5px;
+    }
+    li.register {
+        border: 1px solid $white;
+        border-radius: 5px;
+    }
+    li.register:hover {
+        background: #c82b60;
+        
+    }
+    li.register a:hover {
+        color: $white;
+    }
+    button span i {
+        color: $white;
+        padding: 5px;
+        border: 1px solid $white;
+        border-radius: 5px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .register {
+            width: 160px;
+        }
+        .register a {
+            text-align: center;
+        }
+        .hamb {
+            align-items: end;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        .register {
+            width: 180px;
+        }
+        .register a {
+            text-align: center;
+        }
+      }
+
+      .navbar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: 20;
+          background: #124691;
+        }
+}
